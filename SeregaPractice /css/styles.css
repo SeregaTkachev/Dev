@@ -23,14 +23,6 @@ span {
 
 }
 
-
-.base {
-    width: 100vw;
-    height: 100%;
-
-
-}
-
 a:visited {
     color: white; 
    }
@@ -279,7 +271,7 @@ color: white;
     height: auto;
     right: -15%;
     white-space: nowrap;
-    top: 40%;
+    top: 30%;
 
 
 
@@ -346,9 +338,9 @@ color: white;
 .intro {
     font-family: 'M PLUS 1p';
     display: flex;
-    width: 100vw;
-    height: 100%;
     margin-right: 0;
+    width: 100vw;
+    height: 800px;
 
 
 }
@@ -364,6 +356,7 @@ color: white;
     width: 30%;
     margin-top: 10%;
     margin-left: 10%;
+    height: 600px;
 
 
 }
@@ -408,6 +401,7 @@ color: white;
 }
 
 .button_text {
+    color: rgb(255, 255, 255);
     position: absolute;
     margin-top: 13px;
     margin-left: 45px;
@@ -432,16 +426,154 @@ color: white;
 }
 
 
+.intro__image {
+    position: absolute;
+    display: flex;
+    margin-top: 145px;
+    height: 30%;
+    width: 55%;
+    right: 0%;
+    height: 760px;
 
 
+}
+
+.intro__image-block1 {
+    height: 540px;
+    width: 441px;
+    background-color: rgb(27, 88, 53);;
+    position: absolute;
+    right: 0px;
+    top: -36px;
+}
+
+.intro__image-block2 {
+    height: 504px;
+    width: 377px;
+    background-color: rgb(27, 88, 53);
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    z-index: 4;
+}
+.intro__image-block2 p {
+    font-family: 'Noticia Text';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    
+}
 
 
+.image {
+    position: absolute;
+    height: 738px;
+    width: 460px;
+    left: 50px;
+    z-index: 2;
+
+}
+
+.quote1 {
+    position: absolute;
+    left: 121px;
+    top: 96px;
+}
+
+.quote2 {
+    position: absolute;
+    left: 133px;
+    bottom: 52px;
+}
+
+.quote_text {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    left: 30%;
+    top: 30%;
 
 
+}
 
 
+.medium {
+    background-color: rgb(27, 88, 53);
+    width: 1000px;
+    height: 1010px;
+    font-family: 'M PLUS 1p';
+    
 
 
+}
+
+.benefits {
+     font-family: 'M PLUS 1p';
+        font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color:#F61067;
+    
+}
+.container_medium {
+    position: absolute;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 600px;
+}
 
 
+.benefits_info_text1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    color: rgb(255, 255, 255);
+}
 
+.benefits_info_text2 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    height: 40%;
+    width: 460px;
+    margin-bottom: 10%;
+}
+.benefits_info_text3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    white-space: pre;
+}
+
+.medium_pic {
+    position: absolute;
+    height: 460px;
+    width: 612px;
+    left: 48.5%;
+    margin-top: 18%;
+}
+
+.mobile_apps {
+    color: rgb(27, 88, 53);
+    position: absolute;
+    display: flex;
+    transform: rotate(90deg);
+    transform-origin:left;
+    font-family: 'M PLUS 1p';
+    margin-top: 35%;
+    margin-left: 85%;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 6px;
+}
